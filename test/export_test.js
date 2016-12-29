@@ -1,10 +1,10 @@
 const {expect} = require('chai');
 const fs = require('fs');
-const th = require('../test_helper');
-const {exportToMarkdown} = require('../../lib/markdown/export');
-const mdl = require('../../lib/models');
+const th = require('shr-test-helpers');
+const mdl = require('shr-models');
+const {exportToMarkdown} = require('../index');
 
-describe('#exportToMarkdownCommonCases()', th.commonTests(importFixture, exportNamespaces));
+describe('#exportToMarkdownCommonCases()', th.commonExportTests(importFixture, exportNamespaces));
 
 describe('#exportToMarkdownSpecificCases()', () => {
   it('should correctly export a master index', () => {
