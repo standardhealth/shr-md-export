@@ -829,15 +829,15 @@ shelljs@^0.7.5:
     interpret "^1.0.0"
     rechoir "^0.6.2"
 
-shr-models@~3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-3.0.0.tgz#fb9e5e4c293c999db8db1b108fc6cada0bc8979b"
+shr-models@~4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-4.0.0.tgz#2e506a1e9731d536ab1268b634d3a4767ca4cbf1"
 
-shr-test-helpers@~3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/shr-test-helpers/-/shr-test-helpers-3.0.0.tgz#58a73ee4239306fa9c4b7c0e0b03c275fb95ac34"
+shr-test-helpers@~4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/shr-test-helpers/-/shr-test-helpers-4.0.0.tgz#6c7986d8e5f6bacc752ac60a63b4994bdb3d5766"
   dependencies:
-    shr-models "~3.0.0"
+    shr-models "~4.0.0"
 
 slice-ansi@0.0.4:
   version "0.0.4"
