@@ -1,10 +1,10 @@
 const {expect} = require('chai');
 const fs = require('fs');
-const th = require('shr-test-helpers');
+const et = require('shr-test-helpers/export');
 const mdl = require('shr-models');
 const {exportToMarkdown} = require('../index');
 
-describe('#exportToMarkdownCommonCases()', th.commonExportTests(importFixture, exportSpecifications));
+describe('#exportToMarkdownCommonCases()', et.commonExportTests(exportSpecifications, importFixture));
 
 describe('#exportToMarkdownSpecificCases()', () => {
   it('should correctly export a master index', () => {
